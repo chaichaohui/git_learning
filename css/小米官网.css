@@ -1,0 +1,779 @@
+*{
+    margin:0;
+    padding:0;
+}
+ul,ol{
+    list-style:none;
+}
+a{
+    text-decoration:none;
+}
+img{
+    border:0;
+}
+#d1{
+    background: url("../img/banner.jpg") no-repeat center center;
+    width: 100%;
+    height: 120px;
+
+}
+#d2{
+    height: 30px;
+    padding-left: 20px;
+    display: block;
+    float: left;
+    background: #313032;
+}
+
+#d2 a{
+    display: block;
+}
+#d2 li{
+    float: left;
+}
+#d2 li a{
+    margin-right: 15px;
+    line-height: 40px;
+    font-size: 13px;
+    color: #c9c9c9;
+}
+#d2 #i11{
+    line-height: 40px;
+    font-size: 13px;
+    color: #c9c9c9;
+}
+#d2 #i11:hover{
+    color: #ffffff;
+    cursor: pointer;
+}
+#d2 li a:hover{
+    color: #ffffff;
+}
+#mask{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 2410px;
+    /*background: rgba(0,0,0,0.3);*/
+    background: #000000;
+    opacity: 0.6;
+    filter: alpha(opacity: 30);
+    display: none;
+    z-index: 200;
+}
+#dialog{
+    width: 760px;
+    height: 480px;
+    background: #ffffff;
+    position: absolute;
+    z-index: 200;
+    left: 50%;
+    margin-left: -380px;
+    top: 50%;
+    margin-top: -240px;
+    display: none;
+}
+#dialog .header{
+    height: 50px;
+    background: #eeeeee;
+    line-height: 50px;
+}
+#dialog .close{
+    float: right;
+    margin-right: 10px;
+    cursor: pointer;
+}
+#d3{
+    float: right;
+    background: #313032;
+    display: block;
+    height: 30px;
+    padding-right: 20px;
+}
+#d3 ul{
+    width: 300px;
+
+
+}
+#d3 .l3{
+    background-color: #79777c;
+    width: 130px;
+    height: 40px;
+    text-align: center;
+    display: block;
+    position: relative;
+}
+#d3 .iconfont{
+    font-size: 20px;
+}
+#d3 li{
+    float: right;
+}
+#d3 li a{
+    margin-right: 15px;
+    line-height: 40px;
+    font-size: 13px;
+    color: #c9c9c9;
+
+}
+#d3 .l3 a{
+    display: block;
+    width: 100%;
+}
+#d3 .l3:hover .sub-gouwuche{
+    display: block;
+    animation: run .2s linear forwards;
+    z-index: 2;
+}
+@keyframes run {
+    100%{
+        height: 100px;
+    }
+}
+#d3  li a:hover{
+    color: #ffffff;
+}
+#d3 .sub-gouwuche{
+    width: 250px;
+    height: 0;
+    box-shadow: 0 0 5px 1px rgba(0 0 0 1);
+    display: none;
+    position: absolute;
+    top: 40px;
+    right: 0;
+    background-color: #dadada;
+    overflow: hidden;
+    line-height: 100px;
+    font-size: 13px;
+}
+#d4{
+    background: #313032;
+    height: 40px;
+}
+#d5{
+    height: 100px;
+    position: relative;
+}
+#d6{
+    width: 15%;
+    height: 100px;
+    float: left;
+}
+#d61{
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 55px;
+    height: 55px;
+    background: url("../img/mi-logo.png") #ff5d04 no-repeat center center;
+}
+#d61 a{
+    width: 55px;
+    height: 55px;
+}
+
+#d7 {
+    width: 700px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+#d7 ul li
+{
+    float: left;
+    margin-left: 20px;
+    /*height: 100px;*/
+    line-height: 100px;
+    font-weight: bold;
+}
+
+#d7 ul li a:hover
+{
+    color: #ff0000;
+}
+/*#d7 ul li a*/
+/*{*/
+    /*display: block;*/
+    /*width: 60px;*/
+    /*height: 28px;*/
+    /*line-height: 28px;*/
+    /*text-align: center;*/
+    /*font-size: 15px;*/
+
+/*}*/
+
+/*#d7 ul li ul*/
+/*{*/
+    /*border: 1px solid #ccc;*/
+    /*display: none;*/
+    /*position: absolute;*/
+    /*top:50%;*/
+    /*margin-top: 14px;*/
+/*}*/
+
+
+/*#d7 ul li ul li*/
+/*{*/
+    /*float: none;*/
+    /*width: 60px;*/
+    /*background: #eee;*/
+    /*margin: 0;*/
+    /*height: 20px;*/
+/*}*/
+
+/*#d7 ul li ul li a*/
+/*{*/
+    /*background: none;*/
+/*}*/
+
+/*#menu ul li ul li a:hover*/
+/*{*/
+    /*background: #f214ff;*/
+    /*color: #fff;*/
+/*}*/
+/*#d7 ul li:hover ul*/
+/*{*/
+    /*display: block;*/
+    /*animation: run2 1s linear ;*/
+/*}*/
+
+
+/*#d7 ul li.sfhover ul*/
+/*{*/
+/*display: block;*/
+/*}*/
+#d7 .main-menu1 a{
+    display: block;
+    width: 100%;
+}
+#d7 ul .main-menu1 .nav-menu{
+    width: 1226px;
+    height: 0;
+    display: none;
+    background-color: white;
+    position: absolute;
+    left: 18px;
+    z-index: 1;
+    box-shadow: 0 0 5px 1px rgba(0 0 0 1);
+    overflow: hidden;
+}
+#d7 .main-menu1:hover .nav-menu {
+    display: block;
+    animation: run2 0.2s linear forwards;
+    z-index: 10000;
+}
+@keyframes run2 {
+    100%{
+        height: 230px;
+    }
+}
+#d7 .nav-menu .nav-menu-a{
+    height: 130px;
+    text-align: center;
+    border-right: 1px solid red;
+}
+#d7 .nav-menu .nav-menu-a2{
+    height: 20px;
+    width: 100%;
+    text-align: center;
+    line-height: 20px;
+}
+#d7 .nav-menu .price{
+    width: 100%;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    color: red;
+}
+#d7 .nav-menu li{
+    width: 199px;
+    height: 201px;
+    margin-left: 0;
+}
+#d7 .nav-menu #li6{
+    height: 130px;
+    text-align: center;
+    border-right:none;
+}
+#d7 .nav-menu .flags{
+    width: 204px;
+    height: 25px;
+    text-align: center;
+}
+#d7 .main-menu1 .nav-menu .nav-menu-a1{
+    width: 100%;
+    height: 20px;
+
+}
+
+#d8{
+    width: 25%;
+    height: 100px;
+    float: right;
+    line-height: 100px;
+}
+#d8 input{
+    width: 244px;
+    height: 45px;
+}
+#d8 .icon-soushuo{
+    font-size: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 18px;
+    padding-top: 11px;
+}
+
+#d9{
+    width: 1035px;
+    height: 450px;
+    background: #c9c9c9;
+    float: right;
+    position: relative;
+}
+#d9 #contant img{
+    position: absolute;
+    top:0;
+    left: 0;
+}
+#d9 #tab {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    z-index: 8;
+}
+#d9 #tab li{
+    background: #000000;
+    width: 20px;
+    height: 20px;
+    color: white;
+    float: left;
+    margin-right: 10px;
+    text-align: center;
+    line-height: 20px;
+    cursor: pointer;
+}
+#d9 #arrow{
+    height: 20px;
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+    z-index: 8;
+}
+#d9 #arrow span{
+    width: 20px;
+    height: 20px;
+    float: left;
+    margin-right: 10px;
+    background: #000000;
+    color: white;
+    text-align: center;
+    line-height: 20px;
+    cursor: pointer;        /*--------鼠标变手形状---------*/
+}
+#d9 #tab .selected{
+    background: orange;
+    color: white;
+}
+
+#d10{
+    width: 240px;
+}
+#d10 .vertical-menu{
+    position: relative;
+    float: left;
+}
+#d10 .vertical-menu li{
+    /*display: block;*/
+    background: #79777c;
+    text-indent: 27px;
+    width: 190px;
+    height: 45px;
+    line-height: 45px;
+}
+#d10 .vertical-menu a{
+    color: white;
+    display: block;
+    width: 100%;
+    height: 44px;
+    font-weight: bold;
+}
+#d0 .vertical-menu span{
+    display: block;
+    position: absolute;
+    top:0;
+    left: 0;
+    color: red;
+}
+#d10 .vertical-menu ul{
+    width: 900px;
+    display: none;
+    top:0;                                           /*????????????????????????????*/
+    position: absolute;
+    left: 190px;
+}
+#d10 .vertical-menu .vertical-sub-muenu button{
+    font-size: 14px;
+    width: 40px;
+    height: 23px;
+    cursor: pointer;
+    border: none;
+}
+#d10 .vertical-menu .vertical-sub-muenu button:hover{
+    background-color: red;
+}
+#d10 .vertical-menu .vertical-sub-muenu li{
+    text-indent: 30px;
+    line-height: 77px;
+    width: 265px;
+    height: 77px;
+    color: red;
+    cursor: pointer;
+}
+#d10 .vertical-menu .vertical-sub-muenu img{
+    line-height: 76px;
+}
+
+#d10 .vertical-menu .vertical-sub-muenu a{
+    width: 190px;
+    height: 76px;
+    font-size: 15px;
+    line-height: 76px;
+    float: left;
+}
+#d10 .vertical-menu .vertical-sub-muenu a:hover{
+    color: red;
+}
+#d10 .vertical-menu .vertical-sub-muenu #xuangou{
+    border: 1px solid red;
+    width: 59px;
+    height: 23px;
+}
+#d10 .vertical-menu li:hover ul{
+    display: block;
+    z-index: 10000;
+}
+#d10 .vertical-menu li:hover{
+    background-color: red;
+}
+#d10 .vertical-menu .vertical-sub-muenu li:hover{
+    background-color: white;
+}
+
+
+#d10 .vertical-menu li ul a{
+    color: #000;
+    font-weight: bold;
+}
+#d10 .vertical-menu li ul li{
+    float: left;
+    display: block;
+    width: 300px;
+    background: white;
+}
+#d11-container{
+    border: 1px solid  red;
+    width: 1225px;
+    margin:0 auto;
+    overflow: hidden;
+}
+#d12-container{
+    /*border: 1px solid blue;*/
+    width: 1225px;
+    margin: 0 auto;
+    height: 170px;
+    position: relative;
+}
+#d13{
+    width: 233px;
+    height: 168px;
+    float: left;
+    background-color: #a8a8a8;
+}
+#d13 .c13{
+    padding-top: 2px;
+}
+#d13 .c13 li{
+    display: block;
+    width: 76px;
+    height: 82px;
+    float: left;
+    margin: 0 auto;
+    line-height: 82px;
+    border: 1px solid #ff0811;
+    text-indent: 10px;
+}
+#d13 .c13 li a{
+    font-size: 13px;
+    font-weight: bold;
+}
+#d14{
+    width: 974px;
+    height: 170px;
+    float: right;
+
+}
+#d14 li{
+    width: 316px;
+    height: 170px;
+    float: left;
+}
+#d14 ul .xiaomi1-png{
+    margin-right: 5px;
+    position: relative;
+}
+#d14 ul .xiaomi2-png{
+    margin-right: 10px;
+    position: absolute;
+    left: 10px;
+}
+#mi-dan{
+    position: relative;
+}
+#mi-dan .selected1{
+    display: block;
+}
+#mi-dan div{
+    height: 340px;
+    width: 1264px;
+    display: none;
+    margin-left: 10px;
+}
+#mi-dan div li{
+    width: 240px;
+    height: 339px;
+    background: #f2f2f2;
+    float: left;
+    margin-right: 10px;
+    text-align: center;
+}
+#mi-dan div .li-color1{
+    border-top :1px solid #ffaf17;
+}
+#mi-dan div .li-color2{
+    border-top :1px solid #4716ff;
+}
+#mi-dan div .li-color3{
+    border-top :1px solid #f214ff;
+}
+#mi-dan div .li-color4{
+    border-top :1px solid #ff0811;
+}
+#mi-dan div .li-color5{
+    border-top :1px solid green;
+}
+#mi-dan .h2{
+    margin: 0;
+    font-size: 22px;
+    font-weight: 200;
+    line-height: 58px;
+    color: #333;
+    margin-left: 10px;
+}
+#mi-dan span{
+    float: right;
+    padding-right: 18px;
+    cursor: pointer;
+}
+#mi-dan span:hover{
+    /*background: red;*/
+}
+#jiadian{
+    margin: 0 auto;
+    width: 1230px;
+    height: 680px;
+    background: #f6f6f6;
+    overflow: hidden;
+}
+#jiadian h2{
+    line-height: 58px;
+    font-weight: 100;
+    float: left;
+}
+#jiadian #jiadian-title ul{
+    height: 58px;
+    line-height: 58px;
+}
+#jiadian #jiadian-title li{
+    float: right;
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 25px;
+    height: 40px;
+}
+#jiadian-title #tab2 .selected2{
+    color: red;
+}
+#jiadian h4{
+    text-align: center;
+    font-size: 14px;
+    height: 23px;
+}
+#jiadian p{
+    height: 18px;
+    text-align: center;
+    font-size: 13px;
+}
+#jiadian .p-price{
+    color: red;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#jiadian-row ul{
+    display: none;
+}
+#jiadian-row .selected2{
+    display: block;
+}
+
+#jiadian #jiadian-row img{
+    float: left;
+}
+#jiadian #jiadian-row li{
+    width: 234px;
+    /*height: 300px;*/
+    margin-left: 14px;
+    margin-bottom: 15px;
+    float: left;
+    padding: 34px 0 20px;
+    background: white;
+}
+#jiadian #jiadian-title li:hover{
+    border-bottom: 2px solid red;
+    cursor: pointer;
+}
+#jiadian .jiadian-row-figure{
+     width: 150px;
+     height: 150px;
+     margin: 0 auto;
+ }
+#site-footer{
+    width: 1264px;
+    height: 242px;
+}
+#d30-container{
+    width: 1226px;
+    height: 242px;
+    margin: 0 auto;
+}
+.footer-service{
+    width: 1226px;
+    height: 80px;
+    text-align: center;
+    position: relative;
+    border-bottom: 1px solid #a8a8a8;
+}
+.footer-service ul{
+    /*position: absolute;*/
+    /*top: 50%;*/
+    /*margin-top: -20px;*/
+}
+.footer-service ul li{
+    float: left;
+    width: 240px;
+    height: 25px;
+    padding-top: 25px;
+    font-weight: bolder;
+    /*position: absolute;*/
+    /*top: 50%;*/
+    /*margin-top: -20px;*/
+}
+.footer-service ul li a{
+    line-height: 25px;
+    display: block;
+    border-right: 1px solid #79777c;
+}
+.footer-links{
+    width: 1226px;
+    height: 152px;
+    line-height: 20px;
+}
+.footer-links dt{
+    width: 160px;
+    height: 18px;
+    padding-bottom: 15px;
+}
+.footer-links dd{
+    font-size: 13px;
+    margin-top: 12px;
+}
+.footer-links dl{
+    width: 160px;
+    height: 125px;
+    float: left;
+}
+.footer-links #col-links{
+    width: 160px;
+    text-align: center;
+}
+.footer-links #col-links #p1{
+    font-size: 20px;
+    width: 160px;
+    height: 30px;
+    color: red;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.footer-links #col-links button{
+    width: 120px;
+    height: 30px;
+    font-size: 13px;
+    color: red;
+    cursor: pointer;
+    background: white;
+    border: 1px solid red;
+}
+#site-info{
+    width: 1264px;
+    height: 166px;
+    position: relative;
+    background: #f2f2f2;
+}
+#d31-container{
+    width: 1226px;
+    height: 57px;
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 50%;
+    margin-left: -613px;
+}
+
+#mi-logo{
+    width: 57px;
+    height: 57px;
+    background: url("../img/mi-logo.png") #ff5d04 no-repeat center center;
+    float: left;
+}
+#info-text{
+    width: 770px;
+    height: 57px;
+    float: left;
+    margin-left: 10px;
+}
+#info-text #sites{
+    width: 770px;
+    font-size: 12px;
+    font-weight: 600;
+}
+#info-text p{
+    width: 600px;
+    font-size: 12px;
+}
+#info-links{
+    width: 358px;
+    height: 28px;
+    float: left;
+    margin-left: 30px;
+}
+#slogan{
+    clear: both;
+    margin: 80px auto 0;
+    width: 267px;
+    height: 19px;
+    background: url(../img/小米70.png) no-repeat center 0;
+}
+
